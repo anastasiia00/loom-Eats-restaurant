@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navlink {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: black;
+}
+
+.navlink:hover {
+    color: #FA4A0C;
+}
+
+.navspan {
+    margin-right: 102px;
+}
+
+.app{
+    background-image: url('../img/section1.png');
+    text-align: center;
+    color: white;
+    padding: 80px 0 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hp {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.hh1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    margin-top: 10px;
+    margin-bottom: 14.89px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.hp2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    padding-bottom: 78px;
+}
+
+.button {
+    width: 236px;
+    height: 68px;
+    border-radius: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+.mbutton > .button:first-of-type {
+    border: 1px solid #FA4A0C;
+    background: #FA4A0C;
+    margin-right: 67px;
+}
+
+.mbutton > .button:last-of-type {
+    border: 1px solid white;
+    background: none;
+}
+
+.background2{
+    background-image: url('../img/section3.png');
+    text-align: center;
+    color: white;
+    padding: 147px 0 132px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 145px 0 100px;
+}
+
+.h2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+}
+
+.pp2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    margin: 20px 0 59px;
+}
+
+.button2 {
+    width: 142px;
+    height: 64px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    border: none;
+    border-radius: 10px;
+    padding: 18px, 31px;
+    font-size: 16px;
+    color: white;
+}
+
+.mbutton2 > .button2:first-of-type {
+    background: #FA4A0C;
+    margin-right: 30px;
+}
+
+ .mbutton2 > .button2:last-of-type {
+    width: 172px;
+    border: 1px solid white;
+    background: none;
+    
+ }
+
+ .app_work {
+    font-family: 'Poppins', sans-serif;
+     text-align: center;
+     margin: 56px 0 70px;
+     font-weight: bold;
+     font-size: 44px;
+     line-height: 36px;
+     letter-spacing: 0.1px;
+     color: #000000;
+ }
+
+ .middle1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+ }
+
+.account {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+    margin-top: 110px;
+}
+
+.h3text {
+    max-width: 560px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 17px 0 27px;
+}
+
+.underh3text {
+    max-width: 470px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 232px;
+}
+
+.middle2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.explore {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+
+.h32text {
+    max-width: 480px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 17px 0 27px;
+}
+
+.h32under {
+    max-width: 462px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  30px 0;
+}
+
+.copywrite {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+    padding:  0 160px 30px ;
+}
